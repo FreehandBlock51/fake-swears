@@ -1,5 +1,5 @@
 # fake-swears
-NOTE bc i do not think many of the words are ok to freely post on the interet i have decided to not post the list but you can easily find a good list yourself 
+NOTE bc i do not think many of the words are ok to freely post on the internet i have decided to not post the list but you can easily find a good list yourself 
 
 
 
