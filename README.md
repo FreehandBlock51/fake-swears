@@ -1,10 +1,10 @@
 # fake-swears
-NOTE bc i do not think many of the words are ok to freely post on the internet i have decided to not post the list but you can easily find a good list yourself 
+NOTE bc i do not think many of the words are ok to freely post on the internet i have decided to not post the list of swears but you can easily find a good list yourself 
 
 
 
 for when real swears dont cut it 
-this uses fictionary libiary to create swears its pretty simple in pratice you just put in a .txt full of words set 3 params and boom instand fake swears based on real ones 
+this uses fictionary libiary to create swears its pretty simple in pratice you just put in a .txt full of words set 3 params and boom instant fake swears based on real ones 
 
 <h1> How to setup </h1>
 create or download a txt file full of words and put it in a folder with the py file then set the name and the 3 other params and your done!
