@@ -29,13 +29,19 @@ welcome to:
                                                                                        
                                           
                                           ''')
-                                          
+worder = True
 print("For when you can't use real swears")
+print('')
 fname = str(input("what is the .txt file name: "))
 print("type help for help")
 
 while True:
-  
+  while worder:
+    if fname[-4:] != '.txt':
+      print('that file name is not usable please input the correct one below')
+      fname = str(input("what is the .txt file name: "))
+    else:
+      worder = False
   inpu = str(input("@#$&!> "))
   if inpu == "help":
     print("""
@@ -48,6 +54,7 @@ while True:
   command = 'max' this changes max size of the words outputed
   command = 'count' this changes how many words are generated
   command = 'credits' for code credits
+  command = 'file' to print out the file before you run 
   """)
   elif inpu == "min":
     mins = int(input("set min word length: "))
@@ -65,8 +72,15 @@ while True:
  """)
   elif inpu == "run":
     break
+  elif inpu == "file":
+    a_file = open(fname)
+
+    lines = a_file.readlines()
+    for line in lines:
+      print(line)
   else:
     print("error cmd does not exist")
+  
  
                     
 
@@ -109,11 +123,6 @@ for x in final_list:
   print(x)
 
 input("press enter to exit")
-
-
-
-
-
 
 
 
