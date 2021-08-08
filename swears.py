@@ -1,4 +1,4 @@
-
+fname = ''
 wcount = 100
 mins = 4
 maxs = 8
@@ -65,7 +65,8 @@ while True:
  """)
   elif inpu == "run":
     break
-  
+  else:
+    print("error cmd does not exist")
  
                     
 
@@ -107,7 +108,12 @@ final_list = list(final_list)
 for x in final_list:
   print(x)
 
- 
+input("press enter to exit")
+
+
+
+
+
 
 
 
