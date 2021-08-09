@@ -56,7 +56,8 @@ while True:
   command = 'max' this changes max size of the words outputed
   command = 'count' this changes how many words are generated
   command = 'credits' for code credits
-  command = 'file' to print out the file before you run 
+  command = 'file' to print out the file before you run
+  command = 'exit' to exit the program 
   """)
   elif inpu == "min":
     mins = int(input("set min word length: "))
@@ -130,6 +131,8 @@ if contu:
     print(x)
 
   input("press enter to exit")
+
+
 
 
 
