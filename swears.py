@@ -94,7 +94,7 @@ while True:
 
 
 import fictionary
-while contu:
+if contu:
   #this block of code feeds the txt line by line into the file converter and defines a few vars
   m = fictionary.Model()
   final_list = []
